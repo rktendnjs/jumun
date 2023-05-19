@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 주문서 추가하는 페이지 </title>
+<meta charset="utf-8">
+</head>
+<body>
+<h2>주문서 작성하기 </h2>
+<h3>작성할 주문서 정보를 입력해주세요</h3><hr>
+<form action="http://localhost/dbcheck.php" method="post">
+<table>
+<tr>
+<td>고객ID를 입력해주세요</td>
+<td><input type="text" name="고객ID"></td>
+</tr>
+<tr>
+    <td>가구ID를 입력해주세요</td>
+    <td><input type="text" name="가구ID"></td>
+    </tr>
+    <tr>
+        <td>수량을 입력해주세요</td>
+        <td><input type="int" name="수량"></td>
+        </tr>
+        <tr>
+            <td>주문대리점을 입력해주세요</td>
+            <td><input type="text" name="주문대리점"></td>
+            </tr>        
+<td>작성날짜를 입력해주세요</td>
+<td><input type="date" name="작성날짜"></td>
+
+</tr>
+</table>
+<input type="submit" value="주문서등록">
+<input type="reset" value="다시 입력하기">
+</form>
+</body>
+</html>
